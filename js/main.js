@@ -152,7 +152,7 @@ $(document).ready(function() {
     }, 5000);
 
     // ==================== SCROLL ANIMATIONS ====================
-    const $animateElements = $('.step-card, .servico-card, .plano-card, .depoimento-card, .transformacao-card, .vantagens-list li');
+    const $animateElements = $('.step-card, .step-item, .servico-card, .plano-card, .depoimento-card, .transformacao-card, .vantagens-list li, .stat-card, .galeria-item, .faq-item');
     
     function checkVisibility() {
         const windowHeight = $(window).height();
@@ -315,26 +315,26 @@ $(document).ready(function() {
     function animateCounters() {
         if (countersAnimated) return;
         
-        const $stats = $('.stat-number');
-        const statsOffset = $('.sobre-stats').offset();
+        const $statsSection = $('#stats');
+        if (!$statsSection.length) return;
         
-        if (statsOffset && $(window).scrollTop() + $(window).height() > statsOffset.top) {
+        const statsOffset = $statsSection.offset();
+        
+        if (statsOffset && $(window).scrollTop() + $(window).height() > statsOffset.top + 100) {
             countersAnimated = true;
             
-            $stats.each(function() {
+            $('[data-count]').each(function() {
                 const $this = $(this);
-                const target = $this.text();
-                const numericValue = parseInt(target.replace(/\D/g, ''));
-                const suffix = target.replace(/[0-9]/g, '');
+                const target = parseInt($this.data('count'));
                 
-                $({ count: 0 }).animate({ count: numericValue }, {
+                $({ count: 0 }).animate({ count: target }, {
                     duration: 2000,
                     easing: 'swing',
                     step: function() {
-                        $this.text(Math.floor(this.count) + suffix);
+                        $this.text(Math.floor(this.count).toLocaleString('pt-BR'));
                     },
                     complete: function() {
-                        $this.text(numericValue + suffix);
+                        $this.text(target.toLocaleString('pt-BR'));
                     }
                 });
             });
