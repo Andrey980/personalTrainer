@@ -125,7 +125,9 @@
                         <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
                         <p class="depoimento-text">"Eu já treinava há bastante tempo, mas estava estagnado. O Guto ajustou meu plano para maximizar meus ganhos e corrigiu erros na minha rotina. Em poucas semanas, já senti a diferença! O acompanhamento online é prático e eficaz."</p>
                         <div class="depoimento-author">
-                            <img src="img/depoimento1.jpg" alt="Ricardo Silva">
+                            <div class="author-avatar">
+                                <i class="fas fa-user"></i>
+                            </div>
                             <div class="author-info">
                                 <h4>Ricardo Silva</h4>
                                 <span>29 anos, São Paulo (SP)</span>
@@ -138,7 +140,9 @@
                         <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
                         <p class="depoimento-text">"Sempre fui muito magra e nunca conseguia ganhar peso. Com a consultoria online do Guto, ganhei 8kg de massa muscular em 6 meses. O método funciona de verdade! Recomendo demais!"</p>
                         <div class="depoimento-author">
-                            <img src="img/depoimento2.jpg" alt="Fernanda Costa">
+                            <div class="author-avatar">
+                                <i class="fas fa-user"></i>
+                            </div>
                             <div class="author-info">
                                 <h4>Fernanda Costa</h4>
                                 <span>26 anos, Curitiba (PR)</span>
@@ -151,7 +155,9 @@
                         <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
                         <p class="depoimento-text">"Profissional excepcional! O plano de treino é muito bem elaborado e o suporte é fantástico. Em 3 meses já vi uma diferença enorme no meu shape. O Guto mudou minha vida!"</p>
                         <div class="depoimento-author">
-                            <img src="img/depoimento3.jpg" alt="Marcos Oliveira">
+                            <div class="author-avatar">
+                                <i class="fas fa-user"></i>
+                            </div>
                             <div class="author-info">
                                 <h4>Marcos Oliveira</h4>
                                 <span>32 anos, Rio de Janeiro (RJ)</span>
@@ -159,15 +165,6 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="slider-controls">
-                <button class="slider-btn prev"><i class="fas fa-chevron-left"></i></button>
-                <div class="slider-dots">
-                    <span class="dot active"></span>
-                    <span class="dot"></span>
-                    <span class="dot"></span>
-                </div>
-                <button class="slider-btn next"><i class="fas fa-chevron-right"></i></button>
             </div>
         </div>
     </section>

@@ -12,7 +12,13 @@
             
             <ul class="nav-menu">
                 <li><a href="index.php" class="nav-link <?php echo basename($_SERVER['PHP_SELF']) == 'index.php' ? 'active' : ''; ?>">Início</a></li>
-                <li><a href="como-funciona.php" class="nav-link <?php echo basename($_SERVER['PHP_SELF']) == 'como-funciona.php' ? 'active' : ''; ?>">Como Funciona</a></li>
+                <li class="nav-item-dropdown">
+                    <a href="consultoria-online.php" class="nav-link <?php echo basename($_SERVER['PHP_SELF']) == '' ? 'active' : ''; ?>">Consultoria</a>
+                    <ul class="submenu">
+                        <li><a href="consultoria-online.php" class="submenu-link">Consultoria Online</a></li>
+                        <li><a href="consultoria-presencial.php" class="submenu-link">Consultoria Presencial</a></li>
+                    </ul>
+                </li>
                 <li><a href="loja.php" class="nav-link <?php echo basename($_SERVER['PHP_SELF']) == 'loja.php' ? 'active' : ''; ?>">Loja</a></li>
                 <li><a href="clube.php" class="nav-link <?php echo basename($_SERVER['PHP_SELF']) == 'clube.php' ? 'active' : ''; ?>">Clube de Vantagens</a></li>
                 <li><a href="area-aluno.php" class="nav-link btn-area-aluno">Área do Aluno</a></li>
