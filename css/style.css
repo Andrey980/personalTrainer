@@ -262,7 +262,7 @@ img {
 .submenu-link {
     display: block;
     padding: 12px 10px;
-    font-size: 12px;
+    font-size: 9px;
     font-weight: 500;
     letter-spacing: 1px;
     text-transform: uppercase;
@@ -2450,6 +2450,15 @@ img {
     position: relative;
 }
 
+/* .consultoria-timeline {
+    padding: 100px 0;
+    background-color: var(--color-dark);
+    background-image: url("../img/textura2.jpg");
+    background-repeat: repeat;
+    background-position: center;
+    position: relative;
+} */
+
 .timeline-container {
     position: relative;
     max-width: 1000px;
@@ -2527,6 +2536,14 @@ img {
     color: var(--color-gold);
 }
 
+.timeline-item:nth-child(2) .step-number {
+  left: 59%;
+}
+
+.timeline-item:nth-child(5) .step-number {
+  left: 56%;
+}
+
 /* Update Shield to be filled gold */
 .shield-icon svg path {
     fill: var(--color-dark);
@@ -2585,6 +2602,31 @@ img {
 
 .item-left .app-buttons {
     justify-content: flex-end;
+}
+
+.btn-app {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 16px;
+    border-radius: 8px;
+    border: 1px solid var(--color-gray);
+    color: var(--color-white);
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    transition: var(--transition-fast);
+    background: rgba(0, 0, 0, 0.25);
+}
+
+.btn-app i {
+    font-size: 16px;
+    color: var(--color-gold-light);
+}
+
+.btn-app:hover {
+    border-color: var(--color-gold);
+    transform: translateY(-3px);
 }
 
 .btn-app img {

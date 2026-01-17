@@ -71,8 +71,14 @@
                     <h3>App Exclusivo</h3>
                     <p>Acesse seu programa de treino diretamente no nosso app exclusivo e de fácil uso.</p>
                     <div class="app-buttons">
-                        <a href="#" class="btn-app"><img src="img/app-store.png" alt="Baixar na App Store"></a>
-                        <a href="#" class="btn-app"><img src="img/google-play.png" alt="Disponível no Google Play"></a>
+                        <a href="#" class="btn-app" aria-label="Baixar na App Store">
+                            <i class="fab fa-apple" aria-hidden="true"></i>
+                            <span>Baixar na App Store</span>
+                        </a>
+                        <a href="#" class="btn-app" aria-label="Disponível no Google Play">
+                            <i class="fab fa-google-play" aria-hidden="true"></i>
+                            <span>Disponível no Google Play</span>
+                        </a>
                     </div>
                 </div>
             </div>
