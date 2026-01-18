@@ -20,7 +20,8 @@
                     </ul>
                 </li>
                 <li><a href="loja.php" class="nav-link <?php echo basename($_SERVER['PHP_SELF']) == 'loja.php' ? 'active' : ''; ?>">Loja</a></li>
-                <li><a href="clube.php" class="nav-link <?php echo basename($_SERVER['PHP_SELF']) == 'clube.php' ? 'active' : ''; ?>">Clube de Vantagens</a></li>
+                <li><a href="planilhas.php" class="nav-link <?php echo basename($_SERVER['PHP_SELF']) == 'planilhas.php' ? 'active' : ''; ?>">Planilhas</a></li>
+                <li><a href="clube.php" class="nav-link <?php echo basename($_SERVER['PHP_SELF']) == 'clube.php' ? 'active' : ''; ?>">Parceiros</a></li>
                 <li><a href="area-aluno.php" class="nav-link btn-area-aluno">Área do Aluno</a></li>
             </ul>
             

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <title>Consultoria Online | Guto Spinoza</title>
+    <title>Consultoria Presencial | Guto Spinoza</title>
     <?php include 'components/head.php'; ?>
 </head>
 <body>
@@ -11,7 +11,7 @@
 <section class="page-hero" style="background-image: url('img/IMG_4032.jpg');   background-position: center left;">
     <div class="hero-overlay"></div>
     <div class="container">
-        <h1 class="page-title">Consultoria Online</h1>
+        <h1 class="page-title">Consultoria Presencial</h1>
     </div>
 </section>
 
@@ -36,9 +36,9 @@
                     </div>
                 </div>
                 <div class="timeline-content">
-                    <h3>Acesso ao Questionário de Saúde</h3>
-                    <p>Você terá acesso ao Questionário, onde todas as suas informações deverão ser preenchidas com informações como: objetivo, idade, altura, rotina, lesões, experiência de treino.</p>
-                    <p>Todas essas informações serão utilizadas para montar um treino completamente individualizado para que você possa obter máximo de resultado.</p>
+                    <h3>Acesso a Agenda de atendimento presencial</h3>
+                    <p>Você terá acesso a agenda de atendimento assim que seu pagamento for confirmado e seu login liberado para que você possa escolher a data do seu atendimento de acordo com a disponibilidade atual da agenda.</p>
+                    <p class="obs-text">Na semana do atendimento, você receberá por WhatsApp as instruções sobre local e instruções para comparecimento na consulta seguindo todas as necessidades para realização das avaliações.</p>
                 </div>
             </div>
 
@@ -53,8 +53,9 @@
                     </div>
                 </div>
                 <div class="timeline-content">
-                    <h3>Análise Postural e Dinâmica</h3>
-                    <p>Por meio das fotos e vídeos que serão enviadas por você no questionário de saúde, será feita identificação de possíveis desvios posturais, desequilíbrios musculares para prescrição de exercícios visando a melhora do quadro.</p>
+                    <h3>O que será feito na consulta?</h3>
+                    <p>Na consulta, serão realizados a entrevista de saúde e todos as avaliações físicas e metabólicas necessárias para o seu caso e com isso colher informações para que a melhor prescrição seja feita.</p>
+                    <p class="obs-text">As avaliações são: Calorimetria Indireta; Ultrassom de análise corporal; Adipometria; Análise postural e dinâmica do movimento.</p>
                 </div>
             </div>
 
@@ -69,9 +70,8 @@
                     </div>
                 </div>
                 <div class="timeline-content">
-                    <h3>Treino e Acompanhamento</h3>
-                    <p>Seu treino será enviado pelo aplicativo exclusivo cujo acesso será liberado após a compra do seu plano, aprovação do seu cadastro e pagamento do aplicativo pela APP STORE ou GOOGLE PLAY. Nele você terá acesso aos exercícios, aos alongamentos, aeróbico e toda estrutura.</p>
-                    <p class="obs-text">Obs: O acesso custará R$34,90 mensais, podendo ser pago via CARTÃO DE CRÉDITO ou CARTÃO PRESENTE que você pode adquirir nas lojas online dessas plataformas</p>
+                    <h3>Montagem do Planejamento</h3>
+                    <p>Após as avaliações, você terá seu planejamento montado junto com a periodização do treino e a estratégia de evolução para que você possa compartilhar com seu médico e seu nutricionista.</p>
                 </div>
             </div>
 
@@ -86,8 +86,9 @@
                     </div>
                 </div>
                 <div class="timeline-content">
-                    <h3>Dúvidas</h3>
-                    <p>Suas dúvidas sobre o treino e a correção das execuções dos movimentos serão todas feitas de segunda à sexta pelo WhatsApp de dúvidas exclusivo para alunos, com prazo de resposta de 24h úteis.</p>
+                    <h3>Treino e Acompanhamento</h3>
+                    <p>Seu treino será enviado pelo aplicativo exclusivo cujo acesso será liberado após a compra do seu plano, aprovação do seu cadastro e pagamento do aplicativo pela APP STORE ou GOOGLE PLAY. Nele você terá acesso aos exercícios, aos alongamentos, aeróbico e toda estrutura.</p>
+                    <p class="obs-text">O acesso custará R$34,90 mensais, podendo ser pago via cartão de crédito ou cartão presente que você pode adquirir nas lojas online dessas plataformas.</p>
                 </div>
             </div>
 

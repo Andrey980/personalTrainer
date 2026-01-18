@@ -31,6 +31,17 @@ Para o funcionamento completo do site, você precisará adicionar as seguintes i
 - `antes3.jpg` - Foto antes do cliente 3 (recomendado: 300x400px)
 - `depois3.jpg` - Foto depois do cliente 3 (recomendado: 300x400px)
 
+### Planilhas de Treino
+- `planilhas-men-essential.jpg` - Card Essential (recomendado: 600x800px)
+- `planilhas-men-progressive.jpg` - Card Progressive (recomendado: 600x800px)
+- `planilhas-men-apex.jpg` - Card Apex (recomendado: 600x800px)
+- `planilhas-women-essential.jpg` - Card Essential Her (recomendado: 600x800px)
+- `planilhas-women-progressive.jpg` - Card Progressive Her (recomendado: 600x800px)
+- `planilhas-women-apex.jpg` - Card Apex Her (recomendado: 600x800px)
+- `planilhas-special-core.jpg` - Card Core Defined (recomendado: 600x800px)
+- `planilhas-special-arms.jpg` - Card Arms Intensive (recomendado: 600x800px)
+- `planilhas-special-glutes.jpg` - Card Glutes Extreme (recomendado: 600x800px)
+
 ## Dicas para as Imagens
 
 1. **Qualidade**: Use imagens de alta qualidade, mas otimizadas para web (comprima antes de usar)
