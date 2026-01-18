@@ -109,7 +109,19 @@
 
         </div>
     </div>
+    
+    <article class="consultoria-notice">
+        <div class="container">
+            <div class="notice-card">
+                <p>Os treinos devem ser feitos exclusivamente em academias, sejam pagas ou do prédio/condomínio. <strong>Treinar em casa não é indicado.</strong></p>
+                <p class="notice-alert">Atenção: esse plano não engloba acompanhamento para atletas.</p>
+                <a href="loja.php" class="btn-participar">Quero fazer parte</a>
+            </div>
+        </div>
+    </article>
 </section>
+
+<!-- Notice Section -->
 
 <?php include 'components/footer.php'; ?>
 </body>

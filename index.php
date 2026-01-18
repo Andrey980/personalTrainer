@@ -199,7 +199,7 @@
         </div>
     </section>
 
-    <!-- Parceiros Section -->
+    <!-- Parceiros Section
     <section id="parceiros" class="parceiros-section">
         <div class="container">
             <div class="parceiros-content">
@@ -222,7 +222,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <!-- FAQ Section -->
     <section id="faq" class="faq">
